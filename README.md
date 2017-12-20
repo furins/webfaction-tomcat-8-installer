@@ -2,7 +2,7 @@
 
 ## What does it do? ##
 
-This creates an Apache Tomcat server, version 7.0.63, and the front-end web server proxies incoming requests to the Tomcat server listening on an unprivileged port. It also makes some configuration adjustments.
+This creates an Apache Tomcat server, version 8.5.24, and the front-end web server proxies incoming requests to the Tomcat server listening on an unprivileged port. It also makes some configuration adjustments.
 
 The AJP protocol is disabled, since WebFaction is using [nginx][1] as the front-end to proxy incoming requests to the Tomcat server and nginx doesn't support it.
 
@@ -119,11 +119,11 @@ to:
 And restart your Tomcat instance.
 
 [1]: <http://wiki.nginx.org/Main> "nginx's website"
-[2]: <http://tomcat.apache.org/tomcat-7.0-doc/index.html> "Tomcat documentation"
-[3]: <https://github.com/elromanos/webfaction-tomcat-7-installer/issues> "Project's issue tracker"
+[2]: <http://tomcat.apache.org/tomcat-8.5-doc/index.html> "Tomcat documentation"
+[3]: <https://github.com/furins/webfaction-tomcat-8-installer/issues> "Project's issue tracker"
 [4]: <http://community.webfaction.com/questions/4116/install-tomcat-howto-or-step-by-step-tutorial> "Install Tomcat, howto or step by step tutorial"
 [5]: <https://my.webfaction.com/new-application/> "Add new application form"
-[6]: <https://raw.githubusercontent.com/elromanos/webfaction-tomcat-7-installer/master/TomcatInstall> "TomcatInstaller URL"
+[6]: <https://raw.githubusercontent.com/furins/webfaction-tomcat-8-installer/master/TomcatInstall> "TomcatInstaller URL"
 [7]: <http://docs.webfaction.com/user-guide/websites.html#create-a-website-with-the-control-panel> "Create or modify a website entry"
 [8]: <https://my.webfaction.com/new-application> "Create new application"
 [9]: <http://www.oracle.com/technetwork/java/javase/downloads/index.html> "Oracle's Java"

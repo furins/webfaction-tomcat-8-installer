@@ -14,7 +14,7 @@ You should be able to start the server by executing the `~/webapps/<app_name>/bi
 
 A cron job is created to restart the Tomcat server every 20 minutes if it is not already running.
 
-The official Tomcat 7 documentation is available [here][2].
+The official Tomcat 8.5 documentation is available [here][2].
 
 ## Disclaimer ##
 
@@ -26,12 +26,8 @@ The installer was inspired after the [Install Tomcat, howto or step by step tuto
 
 To install this you need to:
 
-1. Go to the [Add new application][5] form.
-2. In the *Name* field, enter a name for the application.
-3. In the *App category* menu, click to select *Custom*.
-4. In the *App type* menu, click to select *Custom install script*.
-5. In the *Script url* field, enter [the URL of the installer file][6] and click the *Fetch scipt* link.
-6. Click the blue *Add application* button.
+1. [Click here][5].
+
 
 Now, you can [create or modify a website entry][7] which points to your new Tomcat application. Requests to that application’s URL will be proxied by your server to the port number assigned. Your application can then listen and respond to requests on that port.
 
@@ -122,8 +118,7 @@ And restart your Tomcat instance.
 [2]: <http://tomcat.apache.org/tomcat-8.5-doc/index.html> "Tomcat documentation"
 [3]: <https://github.com/furins/webfaction-tomcat-8-installer/issues> "Project's issue tracker"
 [4]: <http://community.webfaction.com/questions/4116/install-tomcat-howto-or-step-by-step-tutorial> "Install Tomcat, howto or step by step tutorial"
-[5]: <https://my.webfaction.com/new-application/> "Add new application form"
-[6]: <https://raw.githubusercontent.com/furins/webfaction-tomcat-8-installer/master/TomcatInstall> "TomcatInstaller URL"
+[5]: <https://my.webfaction.com/new-application/?script_url=https://raw.githubusercontent.com/furins/webfaction-tomcat-8-installer/master/TomcatInstall> "Add new Tomcat application"
 [7]: <http://docs.webfaction.com/user-guide/websites.html#create-a-website-with-the-control-panel> "Create or modify a website entry"
 [8]: <https://my.webfaction.com/new-application> "Create new application"
 [9]: <http://www.oracle.com/technetwork/java/javase/downloads/index.html> "Oracle's Java"
